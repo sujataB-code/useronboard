@@ -49,7 +49,7 @@ const OtpVerification = ({mobileNumber,setShowProgressBar,setShowArrow,setAddLin
             Resend OTP in ({0.59})
         </div>
         <div className="padding-top-15">
-        <Link to={isOtpCorrect ? "/panverification" :''}><button type="submit" className="next-button">Verify OTP</button></Link>
+        <Link to={isOtpCorrect ? "/panverification" :''}><button disabled={!isOtpCorrect} type="submit" className="next-button">Verify OTP</button></Link>
         </div>
       </form>
         </>
