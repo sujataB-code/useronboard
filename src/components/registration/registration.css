@@ -1,0 +1,216 @@
+.registration-start {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.aspire{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.padding-top-15{
+    padding-top: 15px;
+}
+
+.padding-top-5{
+    padding-top: 5px;
+}
+
+.registration-details{
+padding-top: 10px;
+}
+
+.registration-details input {
+    width: 95%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border-color: #f5be43;
+    background-color: #fefbf5;
+    margin: 5px 0px 0px 0px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.next-button {
+    background-color: #f5be43;
+    width: 100%;
+    font-weight: 600;
+    border: 0;
+    height: 45px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+/* registerpage2 CSS*/
+
+.display-flex {
+    display: flex;
+    align-items: start;
+}
+
+.loan-amount-label{
+    font-weight: 600;
+}
+
+.input-styles{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.padding-left-5{
+    padding-left: 5px;
+}
+
+/* registerpage3 CSS*/
+
+.register-page3-input {
+    width: 100%;
+}
+
+.register-page3-input input {
+    width: 10%;
+    margin: 5px;
+    height: 45px;
+    border-radius: 5px;
+    border-color: #f5be43;
+    background-color: #fefbf5;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.error-message{
+    color: red;
+    font-size: 13px;
+}
+
+/* registerpage4 CSS*/
+.display-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.selected-gender {
+    background-color: #f5be43;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.notselected-gender {
+    background-color: offwhite;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 25%
+}
+
+.disabled-style{
+    color:rgb(109, 95, 95)
+}
+
+/* registerpage5 CSS*/
+
+.selected-occupation {
+    background-color: #f5be43;
+    margin-top: 10px ;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 15%;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.notselected-occupation {
+    background-color: offwhite;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 15%;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.notselected-occupation:hover {
+    background-color: #f5be43;
+}
+
+/* registerpage6 CSS*/
+.register-business-document-type {
+    border: 1px solid #f5be43;
+    border-radius: 10px;
+    padding: 0px 30px 10px 30px;
+    background-color: #fefbf5;
+    margin-top: 10px;
+}
+
+.aadhar-approval {
+    padding: 5px;
+    background-color: #f5be43;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.business-document-button {
+    border-bottom: 1px solid lightslategray;
+    width: 100%;
+    display: block;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.document-select {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #f5be43;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.document-detail {
+    height: 45px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: #f5be43;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+/* registerpage7 CSS*/
+.disabled-next{
+cursor:default;
+}
+
+/* registerpage8 CSS*/
+
+.registration-success-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.registration-success {
+    background-color: #fefbf5;
+    width: 200px;
+    border-radius: 10px;
+    padding: 45px;
+}
+
+.button-width{
+    width: 280px;
+}

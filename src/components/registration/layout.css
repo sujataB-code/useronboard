@@ -1,0 +1,40 @@
+.registration-background {
+    background-color: #f5be43;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+.registration-content {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.aspire {
+    font-size: 600;
+    font-weight: 25px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.page-width {
+    width: 300px;
+}
+
+.ask-for-help {
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+    .registration-background {
+        padding: 0px;
+    }
+
+    .registration-content {
+        border-radius: 0px;
+    }
+}

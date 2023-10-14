@@ -1,0 +1,53 @@
+.line{
+    width: 30%;
+    height: 1px;
+    background-color: #f5be43;
+}
+
+.circle{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #f5be43;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43%;
+}
+
+.insidecircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #f5be43;
+    position: absolute;
+}
+ 
+
+@media(max-width:1000px){
+    .progress-container{
+        width: 45%;
+    }
+}
+
+@media(max-width:900px){
+    .progress-container{
+        width: 90%;
+    }
+}
+
+@media(max-width:600px){
+    .progress-container{
+        width: 100%;
+        padding-left: 5%;
+    }
+}
